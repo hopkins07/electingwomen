@@ -36,9 +36,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'CandidateServices'
-  }
+export default {
+  name: 'CandidateServices'
+}
 </script>
 <style>
   .content{

@@ -5,11 +5,11 @@
     <b-button v-b-modal.login>Yes</b-button>
     <b-button class="no" v-b-modal.notAMember>No</b-button>
         <b-modal id="notAMember" title="">
-          If you are a member of an affiliate organization, please sign-up. 
+          If you are a member of an affiliate organization, please sign-up.
         </b-modal>
     <b-modal id="login" title="Login">
       <b-form>
-        Username:<b-input type="text" v-model="userid" /> 
+        Username:<b-input type="text" v-model="userid" />
         <b-form-group @submit.prevent>
           <label for="textPassword">Password</label>
           <b-input type="password" id="textPassword" aria-describedby="passwordHelpBlock" />
@@ -35,9 +35,9 @@
 
 <script>
 export default {
-  name: 'Home' 
-  }
-  
+  name: 'Home'
+}
+
 </script>
 <style>
   .content{

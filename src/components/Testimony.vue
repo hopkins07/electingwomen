@@ -9,7 +9,7 @@
           <!-- v-b-modal.modalName is how you create a modal. Whatever modalName you provide here will be the modal the user accesses when they click the card.-->
           <b-card-text>
             This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer. 
+            This content is a little bit longer.
           </b-card-text>
         </b-card>
         <!-- Here is a sample code for our first modal. There are similar modals to this in the code below.-->
@@ -22,8 +22,6 @@
                  aspect="16by9"
                  :src="videos.asset1"
                  allowfullscreen />
-
-
 
         <b-card header="Quote" v-b-modal.modal2>
           <blockquote class="blockquote mb-0">
@@ -41,7 +39,7 @@
           <!-- v-b-modal.modalName is how you create a modal. Whatever modalName you provide here will be the modal the user accesses when they click the card.-->
           <b-card-text>
             This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer. 
+            This content is a little bit longer.
           </b-card-text>
         </b-card>
         <!-- Here is a sample code for our first modal. There are similar modals to this in the code below.-->
@@ -49,7 +47,7 @@
           <p class="my-4">We can add some information about the kitty here.</p>
         </b-modal>
 
-        <b-card v-b-modal.modal3> 
+        <b-card v-b-modal.modal3>
           <b-card-title>Title</b-card-title>
           <b-card-text>
             This card has supporting text below as a natural lead-in to additional content.
@@ -124,7 +122,7 @@
           <!-- v-b-modal.modalName is how you create a modal. Whatever modalName you provide here will be the modal the user accesses when they click the card.-->
           <b-card-text>
             This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer. 
+            This content is a little bit longer.
           </b-card-text>
         </b-card>
         <!-- Here is a sample code for our first modal. There are similar modals to this in the code below.-->
@@ -132,7 +130,7 @@
           <p class="my-4">We can add some information about the kitty here.</p>
         </b-modal>
 
-        <b-card v-b-modal.modal3> 
+        <b-card v-b-modal.modal3>
           <b-card-title>Title</b-card-title>
           <b-card-text>
             This card has supporting text below as a natural lead-in to additional content.
@@ -156,7 +154,7 @@
           <!-- v-b-modal.modalName is how you create a modal. Whatever modalName you provide here will be the modal the user accesses when they click the card.-->
           <b-card-text>
             This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer. 
+            This content is a little bit longer.
           </b-card-text>
         </b-card>
         <!-- Here is a sample code for our first modal. There are similar modals to this in the code below.-->
@@ -164,7 +162,7 @@
           <p class="my-4">We can add some information about the kitty here.</p>
         </b-modal>
 
-        <b-card v-b-modal.modal3> 
+        <b-card v-b-modal.modal3>
           <b-card-title>Title</b-card-title>
           <b-card-text>
             This card has supporting text below as a natural lead-in to additional content.
@@ -189,32 +187,32 @@
 </template>
 
 <script>
-import img from '../assets/asset_3.jpg'
-  export default {
-    name: 'Testimony',
-     data() {
-        return {
-            images: {
-                asset1: require('@/assets/asset_1.jpg'),
-                asset2: require('@/assets/asset_2.jpg'),
-                asset3: require('@/assets/asset_3.jpg'),
-                asset4: require('@/assets/asset_4.jpg'),
-                asset5: require('@/assets/asset_5.jpg'),
-                asset6: require('@/assets/asset_6.jpg'),
-                asset7: require('@/assets/asset_7.jpg'),
-                asset8: require('@/assets/asset_8.jpg'),
-                asset9: require('@/assets/asset_9.jpg'),
-                asset10: require('@/assets/asset_10.jpg'),
-                asset11: require('@/assets/asset_11.jpg'),
-                asset11: require('@/assets/asset_12.jpg'),
-                asset11: require('@/assets/asset_13.jpg'),
-                asset11: require('@/assets/asset_14.jpg'),
-            },
-            videos: {
-                asset1: require('@/assets/asset_video.mp4')
-            }
-        }
+
+export default {
+  name: 'Testimony',
+  data () {
+    return {
+      images: {
+        asset1: require('@/assets/asset_1.jpg'),
+        asset2: require('@/assets/asset_2.jpg'),
+        asset3: require('@/assets/asset_3.jpg'),
+        asset4: require('@/assets/asset_4.jpg'),
+        asset5: require('@/assets/asset_5.jpg'),
+        asset6: require('@/assets/asset_6.jpg'),
+        asset7: require('@/assets/asset_7.jpg'),
+        asset8: require('@/assets/asset_8.jpg'),
+        asset9: require('@/assets/asset_9.jpg'),
+        asset10: require('@/assets/asset_10.jpg'),
+        asset11: require('@/assets/asset_11.jpg'),
+        asset12: require('@/assets/asset_12.jpg'),
+        asset13: require('@/assets/asset_13.jpg'),
+        asset14: require('@/assets/asset_14.jpg')
+      },
+      videos: {
+        asset1: require('@/assets/asset_video.mp4')
+      }
     }
+  }
 }
 </script>
 

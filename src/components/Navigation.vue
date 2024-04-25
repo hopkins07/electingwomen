@@ -15,38 +15,38 @@
 <script>
 export default {
   name: 'Navigation',
-  data() {
+  data () {
     return {
       links: [
         {
           id: 0,
           text: 'About',
-          page:'/About'
+          page: '/About'
         },
         {
           id: 1,
           text: 'Testimony',
-          page:'/Testimony'
+          page: '/Testimony'
         },
         {
           id: 2,
           text: 'Candidate Toolkit',
-          page:'/CandidateServices'
+          page: '/CandidateServices'
         },
         {
           id: 3,
           text: 'News',
-          page:'/News'
+          page: '/News'
         },
-       {
-         id: 4,
-         text: 'Choose Language',
-         page: '/ChooseLanguage'
-       },
-       {
-         id: 5,
-         text: 'Login',
-         page: '/Login'
+        {
+          id: 4,
+          text: 'Choose Language',
+          page: '/ChooseLanguage'
+        },
+        {
+          id: 5,
+          text: 'Login',
+          page: '/Login'
         },
         {
           id: 6,

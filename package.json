@@ -2,7 +2,7 @@
   "name": "electingwomen",
   "version": "1.0.0",
   "description": "UI for the electing women toolkit for Women's Peer 2 Peer network developed using vue.js",
-  "author": "Naba Rizvi",
+  "author": "Ritik Manuja",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

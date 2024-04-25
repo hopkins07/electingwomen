@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'ChooseLanguage' //this is the name of the component
+  name: 'ChooseLanguage' // this is the name of the component
 }
 </script>
 <style>

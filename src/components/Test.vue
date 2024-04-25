@@ -2,26 +2,25 @@
   <p v-on-clickaway="away" @click="click" :style="{ color: color }">{{ text }}</p>
 </div></template>
 
-
 <script>
-  new Vue({
+new Vue({
   el: '#demo',
   mixins: [VueClickaway.mixin],
   data: {
-  text: 'Click somewhere.',
-  color: 'black',
+    text: 'Click somewhere.',
+    color: 'black'
   },
   methods: {
-  click: function() {
-  this.text = 'You clicked on me!';
-  this.color = 'green';
-  },
-  away: function() {
-  this.text = 'You clicked away...';
-  this.color = 'red';
-  },
-  },
-  });
+    click: function () {
+      this.text = 'You clicked on me!'
+      this.color = 'green'
+    },
+    away: function () {
+      this.text = 'You clicked away...'
+      this.color = 'red'
+    }
+  }
+})
 </script>
 
 <style>

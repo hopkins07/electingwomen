@@ -13,13 +13,13 @@
 <script>
 export default {
   name: 'Footer',
-  data(){
+  data () {
     return {
-            images: {
-                logo: require('@/assets/WP2P2_logo.png'),
-            }
-          }
-        }
+      images: {
+        logo: require('@/assets/WP2P2_logo.png')
+      }
+    }
+  }
 }
 </script>
 <style>
